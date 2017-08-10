@@ -1,0 +1,51 @@
+
+
+/* ==================================================
+ 	IMAGE SLIDER STYLING
+====================================================*/
+.slider{
+	width: 100%;
+}
+
+.slider1 img{
+	min-width: 100%; /*stretch the images to the page size*/
+	margin: 0 auto;
+}
+
+
+/* previous and next buttons */
+.slider .bx-wrapper .bx-controls-direction a{
+	outline: 0 none;
+	position: absolute; /* keep posiiton at all times*/
+	text-indent: -99999px;
+	top: 40%;
+	height: 71px;
+	width: 40px;
+	z-index: -1;
+	transition: all 0.7s;
+}
+
+.slider .bx-wrapper:hover. .bx-controls-direction a{
+	z-index: 5;
+}
+
+.slider .bx-wrapper .bx-prev {
+	background: : #000 url("img/left-arrow-white.png") no-repeat 8px 13px;
+	left: 0px;
+	opacity: 0.3;
+}
+
+.slider .bx-wrapper .bx-prev:hover {
+	opacity: 0.6;
+}
+
+.slider .bx-wrapper .bx-next {
+	background: : #000 url("img/right-arrow-white.png") no-repeat 10px 12px;
+	right:  10px;
+	opacity: 0.3;
+}
+
+.slider .bx-wrapper .bx-next:hover {
+	opacity: 0.6;
+}
+
